@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\MirrorWorld">
+      <UniqueIdentifier>{be3b8744-a0a7-40aa-806f-8790c0a0024f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gameplay Files">
+      <UniqueIdentifier>{1cfbe7bf-327d-4820-b8ef-32271c6d8c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gameplay Files\GameObject">
+      <UniqueIdentifier>{a2369f07-277e-49d0-b14b-24fa6089ce6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gameplay Files\GameObject\Components">
+      <UniqueIdentifier>{cd32033e-839b-46a7-9843-f51484d7c408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gameplay Files\World">
+      <UniqueIdentifier>{e3f6323e-59bc-43c9-a932-72697d6a8649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HUD files">
+      <UniqueIdentifier>{a6cd85ea-6084-439f-bf21-f03f330db99b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MirrorWorld\Special Cases">
+      <UniqueIdentifier>{010d66c4-056e-471f-b116-92d29e135381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menus">
+      <UniqueIdentifier>{839ff489-acbe-4fec-a221-b17635b0417b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Special Cases">
+      <UniqueIdentifier>{aca99ce8-556d-4148-8bc6-a87c81da7e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gameplay Files\GameObject\Objects">
+      <UniqueIdentifier>{ee1eeac6-f69a-4de6-ada0-99f7f7e002dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicComponents.cpp">
+      <Filter>Source Files\Special Cases</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects.cpp">
+      <Filter>Source Files\Special Cases</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files\Gameplay Files\GameObject\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MW.h">
+      <Filter>Header Files\MirrorWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicComponents.h">
+      <Filter>Header Files\Gameplay Files\GameObject\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Gameplay Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files\Gameplay Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\HUD files</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files\HUD files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructorTexture.h">
+      <Filter>Header Files\MirrorWorld\Special Cases</Filter>
+    </ClInclude>
+    <ClInclude Include="Menus.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files\MirrorWorld\Special Cases</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects.h">
+      <Filter>Header Files\Gameplay Files\GameObject\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
