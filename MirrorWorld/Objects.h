@@ -16,7 +16,6 @@ namespace mw
 class TestPhysicsComponent : public PhysicsComponent
 {
 public:
-	int number;
 	TestPhysicsComponent()
 	{
 		myMaxSpeed = 5;
