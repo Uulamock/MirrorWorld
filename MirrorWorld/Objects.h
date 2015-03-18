@@ -34,6 +34,7 @@ public:
 
 class TestGraphicsComponent : public GraphicsComponent
 {
+public:
 	TestGraphicsComponent() {}
 	virtual ~TestGraphicsComponent() {}
 
@@ -44,10 +45,13 @@ class TestGraphicsComponent : public GraphicsComponent
 
 class TestInputComponent : public InputComponent 
 {
+public:
 	TestInputComponent(){}
 	virtual ~TestInputComponent(){}
 
 	virtual void handleEvents(GameObject& object, sf::RenderWindow& screen, mw::EventList& events){}
+
+	virtual void receive(mw::Component::Message message){}
 };
 
 static std::shared_ptr<mw::GameObject> createTestObject()
@@ -56,7 +60,8 @@ static std::shared_ptr<mw::GameObject> createTestObject()
 	std::shared_ptr<mw::TestInputComponent> input(new TestInputComponent());
 	std::shared_ptr<mw::TestGraphicsComponent> graphics(new TestGraphicsComponent());
 	std::shared_ptr<mw::TestPhysicsComponent> physics(new TestPhysicsComponent());
-	std::shared_ptr<mw::GameObject> testObject(new GameObject(std::make_shared<TestInputComponent>(), std::make_shared<TestGraphicsComponent>, std::make_shared<TestPhysicsComponent>()));
+	std::shared_ptr<mw::GameObject> testObject(new GameObject(input, graphics, physics));
+	//std::shared_ptr<mw::GameObject> testObject(new GameObject(std::make_shared<TestInputComponent>(), std::make_shared<TestGraphicsComponent>, std::make_shared<TestPhysicsComponent>()));
 
 	return testObject;
 }

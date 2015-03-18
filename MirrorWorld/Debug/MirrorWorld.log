@@ -1,34 +1,20 @@
-﻿Build started 2/6/2015 8:10:48 PM.
-     1>Project "C:\Users\Uulamock.Alex-PC\Documents\Visual Studio 2012\Projects\MirrorWorld\MirrorWorld\MirrorWorld.vcxproj" on node 2 (Build target(s)).
+﻿Build started 3/17/2015 8:13:18 PM.
+     1>Project "C:\Users\Uulamock.Alex-PC\documents\visual studio 2012\Projects\MirrorWorld\MirrorWorld\MirrorWorld.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML-2.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Objects.cpp
          Objects.cpp
-     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\objects.h(54): error C2248: 'mw::TestInputComponent::TestInputComponent' : cannot access private member declared in class 'mw::TestInputComponent'
-                 c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\objects.h(45) : see declaration of 'mw::TestInputComponent::TestInputComponent'
-                 c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\objects.h(43) : see declaration of 'mw::TestInputComponent'
-     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\objects.h(55): error C2248: 'mw::TestGraphicsComponent::TestGraphicsComponent' : cannot access private member declared in class 'mw::TestGraphicsComponent'
-                 c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\objects.h(37) : see declaration of 'mw::TestGraphicsComponent::TestGraphicsComponent'
-                 c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\objects.h(35) : see declaration of 'mw::TestGraphicsComponent'
-     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\objects.h(57): error C2664: 'mw::GameObject::GameObject(std::shared_ptr<_Ty>,std::shared_ptr<mw::GraphicsComponent>,std::shared_ptr<mw::PhysicsComponent>)' : cannot convert parameter 2 from 'overloaded-function' to 'std::shared_ptr<_Ty>'
-                 with
-                 [
-                     _Ty=mw::InputComponent
-                 ]
-                 and
-                 [
-                     _Ty=mw::GraphicsComponent
-                 ]
-                 Constructor for class 'std::shared_ptr<_Ty>' is declared 'explicit'
-                 with
-                 [
-                     _Ty=mw::GraphicsComponent
-                 ]
      1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\world.h(35): warning C4018: '<' : signed/unsigned mismatch
      1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\world.h(73): warning C4018: '<' : signed/unsigned mismatch
      1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\world.h(165): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
      1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\world.h(171): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>Done Building Project "C:\Users\Uulamock.Alex-PC\Documents\Visual Studio 2012\Projects\MirrorWorld\MirrorWorld\MirrorWorld.vcxproj" (Build target(s)) -- FAILED.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Uulamock.Alex-PC\documents\visual studio 2012\Projects\MirrorWorld\Debug\MirrorWorld.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.0\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-network-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Uulamock.Alex-PC\documents\visual studio 2012\Projects\MirrorWorld\Debug\MirrorWorld.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Uulamock.Alex-PC\documents\visual studio 2012\Projects\MirrorWorld\Debug\MirrorWorld.lib" /MACHINE:X86 Debug\BasicComponents.obj
+         Debug\Main.obj
+         Debug\Objects.obj
+         LINK : C:\Users\Uulamock.Alex-PC\documents\visual studio 2012\Projects\MirrorWorld\Debug\MirrorWorld.exe not found or not built by the last incremental link; performing full link
+         MirrorWorld.vcxproj -> C:\Users\Uulamock.Alex-PC\documents\visual studio 2012\Projects\MirrorWorld\Debug\MirrorWorld.exe
+     1>Done Building Project "C:\Users\Uulamock.Alex-PC\documents\visual studio 2012\Projects\MirrorWorld\MirrorWorld\MirrorWorld.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:01.47
+Time Elapsed 00:00:04.99
