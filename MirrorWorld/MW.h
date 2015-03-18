@@ -98,7 +98,7 @@ namespace mw
 	{
 
 		//To easily edit the file locations 
-		static const std::string FILE_LOCATION = "C:/Users/Uulamock.Alex-PC/Pictures/TempGameArt/MirrorWorld/";
+		static const std::string FILE_LOCATION = "C:/MirrorWorldFiles/Textures/";
 
 		namespace World
 		{
