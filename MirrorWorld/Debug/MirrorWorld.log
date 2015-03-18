@@ -1,4 +1,4 @@
-﻿Build started 3/18/2015 2:34:51 AM.
+﻿Build started 3/18/2015 4:47:44 PM.
      1>Project "C:\Users\Uulamock.Alex-PC\Documents\Visual Studio 2012\Projects\MirrorWorld\MirrorWorld\MirrorWorld.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML-2.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
@@ -7,18 +7,18 @@
      1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(73): warning C4018: '<' : signed/unsigned mismatch
      1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(86): warning C4018: '<' : signed/unsigned mismatch
      1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(88): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(143): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(180): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(182): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(199): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(201): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(205): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(209): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(232): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(234): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(236): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(252): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(254): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(149): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(190): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(192): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(212): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(214): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(222): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(230): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(259): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(261): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(263): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(279): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\text.h(281): warning C4018: '<' : signed/unsigned mismatch
      1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\button.h(47): warning C4018: '<' : signed/unsigned mismatch
      1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\world.h(35): warning C4018: '<' : signed/unsigned mismatch
      1>c:\users\uulamock.alex-pc\documents\visual studio 2012\projects\mirrorworld\mirrorworld\world.h(73): warning C4018: '<' : signed/unsigned mismatch
@@ -33,4 +33,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.62
+Time Elapsed 00:00:04.23

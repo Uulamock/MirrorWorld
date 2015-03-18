@@ -254,6 +254,8 @@ namespace mw
 	namespace Math
 	{
 
+		static const double PI = 3.1415926;
+
 		namespace World
 		{
 

@@ -87,7 +87,8 @@ public:
 protected:
 	sf::Vector2f myPosition;
 
-	double myAngle;
+	double myAngle;		//This value contains the degrees
+	double myRadians;	//This value contains the Radians. note: This value will be edited based on edits to myAngle
 
 	sf::Color myColor;
 };
