@@ -20,8 +20,9 @@
 //				Alex - 1/2/15
 //				Alex - 1/20/15
 //				Alex - 2/6/15
+//				Jeremy - 3/17/15
 //
-// Last edited: Alex - 2/6/15
+// Last edited: Jeremy - 3/17/15
 //
 // Mirror World: 
 //	- A puzzle game where the world can flip at the users will
