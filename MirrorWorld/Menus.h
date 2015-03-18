@@ -53,9 +53,9 @@ namespace mw
 				//Object delcarations//////////////////////////////////////////
 				//Declare all objects here//
 					sf::hud::Text txtMainMenu;
-					txtMainMenu.setSize(50);
-					txtMainMenu = "Mirror\nWorld";
-					txtMainMenu.setPosition(screen.getSize().x /2 - txtMainMenu.getWidth() / 2, 32);
+					txtMainMenu.setFontSize(50);
+					txtMainMenu = "ABC\ncba";
+					//txtMainMenu.setPosition(screen.getSize().x /2 - txtMainMenu.getWidth() / 2, 32);
 
 					sf::hud::Button btnStart;
 					btnStart.setTexture(mw::Texture::hud::TEXTURE_TEXT);

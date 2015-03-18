@@ -80,7 +80,7 @@ int main()
 
 	//The World that you play on, contains the information of tiles, objects, the player, etc.
 	mw::World world = mw::World1();
-	mw::Menus::currentMenu = mw::Menus::Menu::GAMEPLAY;
+	mw::Menus::currentMenu = mw::Menus::Menu::MAIN_MENU;
 
 	//Holds every event that happened so other components and run through them
 	mw::EventList eventList;

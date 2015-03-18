@@ -89,5 +89,8 @@
     <ClInclude Include="Objects.h">
       <Filter>Header Files\Gameplay Files\GameObject\Objects</Filter>
     </ClInclude>
+    <ClInclude Include="HudObject.h">
+      <Filter>Header Files\HUD files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -94,6 +94,7 @@
     <ClInclude Include="Component.h" />
     <ClInclude Include="ConstructorTexture.h" />
     <ClInclude Include="GameObject.h" />
+    <ClInclude Include="HudObject.h" />
     <ClInclude Include="Menus.h" />
     <ClInclude Include="MW.h" />
     <ClInclude Include="Objects.h" />
