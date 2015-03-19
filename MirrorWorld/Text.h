@@ -206,7 +206,6 @@ private:
 	//Aligns the text with itself and aligns it with the angle
 	void alignText() 
 	{
-		//std::cout << "Angle: " << myAngle << std::endl;
 		if(myText.size() > 0)
 		{
 			for(int line = 0; line < myLetterSprites.size(); line++)
@@ -220,23 +219,14 @@ private:
 						double y = myLetterSprites[line][letter-1].getPosition().y + (myFontSize * (sin(myRadians)));
 
 						myLetterSprites[line][letter].setPosition(x, y);
-
-						//std::cout << "Line: " << line << " Letter: " << letter << std::endl;
-						//std::cout << "      " << myLetterSprites[line][letter-1].getPosition().x + (myFontSize * cos(myAngle)) << "         " << myLetterSprites[line][letter-1].getPosition().y + (myFontSize * -(sin(myAngle))) << std::endl << std::endl;
 					}
 					else if(line > 0 && letter == 0)
 					{
 						myLetterSprites[line][letter].setPosition(myLetterSprites[line-1][letter].getPosition().x + (myFontSize * cos((myRadians-(90*(mw::Math::PI/180))))), 
 																	myLetterSprites[line-1][letter].getPosition().y + (myFontSize * sin((myRadians-(90*(mw::Math::PI/180))))));
-
-						//std::cout << "Line: " << line << " Letter: " << letter << std::endl;
-						//std::cout << "      " << myFontSize * (letter * cos((myAngle-90))) << "         " << myFontSize * (line * -sin((myAngle-90))) << std::endl << std::endl;
 					}
 				}
 			}
-
-			std::cout << cos(myAngle) << std::endl;
-			std::cout << cos(myRadians) << std::endl<< std::endl;
 		}
 	} 
 
