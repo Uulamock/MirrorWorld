@@ -56,7 +56,7 @@ namespace mw
 					txtMainMenu.setFontSize(50);
 					txtMainMenu = "ABC\ncba";
 					txtMainMenu.setPosition(200, 200);
-					txtMainMenu.setAngle(270);
+					txtMainMenu.setAngle(45);
 					//txtMainMenu.setPosition(screen.getSize().x /2 - txtMainMenu.getWidth() / 2, 32);
 
 					sf::hud::Button btnStart;
