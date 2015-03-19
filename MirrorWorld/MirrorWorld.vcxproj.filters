@@ -92,5 +92,8 @@
     <ClInclude Include="HudObject.h">
       <Filter>Header Files\HUD files</Filter>
     </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\MirrorWorld\Special Cases</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
